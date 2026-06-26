@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+pip-log.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data — all lives on E: drive, never committed
+data/
+E:/
+
+# Model weights — too large for git
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Qdrant storage
+qdrant_storage/
+
+# Logs and failure logs
+*.log
+*.jsonl
+logs/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Evaluation outputs (generated, not source)
+evaluation/results/
+evaluation/outputs/
+golden_dataset_generated/

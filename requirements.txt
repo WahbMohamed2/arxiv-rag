@@ -1,0 +1,33 @@
+# arXiv
+arxiv
+httpx
+
+# Parsing
+marker-pdf
+requests
+
+# Chunking + tokenization
+tiktoken
+
+# Embedding + reranking
+torch
+transformers
+sentence-transformers
+
+# Vector DB client
+qdrant-client
+
+# BM25
+rank-bm25
+
+# LLM (Ollama client)
+ollama
+
+# Evaluation
+ragas
+deepeval
+
+# Utilities
+tqdm
+python-dotenv
+loguru
